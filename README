@@ -1,0 +1,31 @@
+NAME
+    Map::Metro::Plugin::Map::Helsinki - Map::Metro map for Helsinki
+
+SYNOPSIS
+        use Map::Metro;
+        my $graph = Map::Metro->new('Helsinki')->parse;
+
+        my $graph2 = Map::Metro->new('Helsinki', hooks => 'Helsinki::Swedish')->parse;
+        # now the station names are in Swedish
+
+DESCRIPTION
+    See Map::Metro for usage information.
+
+    This distribution also includes the
+    "Map::Metro::Plugin::Hook::Helsinki::Swedish" hook, which if applied
+    translates all station names into Swedish.
+
+Status
+    Per 2014-dec-12 it contains the two branches of the Helsinki metro
+    (wikipedia <https://en.wikipedia.org/wiki/Helsinki_Metro>)
+
+AUTHOR
+    Erik Carlsson <info@code301.com>
+
+COPYRIGHT
+    Copyright 2014 - Erik Carlsson
+
+LICENSE
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
