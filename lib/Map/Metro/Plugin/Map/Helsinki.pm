@@ -1,7 +1,7 @@
 use 5.20.0;
 
 package Map::Metro::Plugin::Map::Helsinki  {
-$Map::Metro::Plugin::Map::Helsinki::VERSION = '0.1982';
+$Map::Metro::Plugin::Map::Helsinki::VERSION = '0.1983';
 use Moose;
     use File::ShareDir 'dist_dir';
     use Path::Tiny;

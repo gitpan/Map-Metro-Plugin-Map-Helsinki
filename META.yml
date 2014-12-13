@@ -25,4 +25,4 @@ requires:
   Encode: '0'
   Map::Metro: '0.1700'
   perl: '5.020000'
-version: '0.1982'
+version: '0.1983'
